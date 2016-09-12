@@ -1,1 +1,4 @@
 ---
+
+composer_phar_url: http://getcomposer.org/composer.phar
+composer_bin_path: /usr/local/bin/composer
