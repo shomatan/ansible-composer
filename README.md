@@ -11,7 +11,7 @@ None.
 |composer_bin_path|String||/usr/local/bin/composer|
 
 ## Dependencies
-+ [php](https://github.com/shomatan/ansible-php)
+None.
 
 ## Example playbook
 
