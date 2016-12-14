@@ -4,6 +4,10 @@ Installs dependency Manager for PHP.
 ## Requirements
 None.
 
+## Supported Platforms
++ EL 7
++ Darwin
+
 ## Role Variables
 |Key|Type|Description|Default|
 |:--|:---|:----------|:------|
