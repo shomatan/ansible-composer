@@ -4,3 +4,9 @@
     url: "{{ composer_phar_url }}"
     dest: "{{ composer_bin_path }}"
     mode: 00755
+
+- name: Ensure zip and unzip are installed.
+  yum:
+    name: "{{ item }}"
+    state: installed
+  with_items: [ zip, unzip ]
