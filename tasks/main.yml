@@ -1,3 +1,6 @@
 ---
 - name: Ensure composer is installed.
-  get_url: url={{ composer_phar_url }} dest={{ composer_bin_path }} mode=00755
+  get_url:
+    url: "{{ composer_phar_url }}"
+    dest: "{{ composer_bin_path }}"
+    mode: 00755
